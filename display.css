@@ -1,0 +1,103 @@
+			
+			
+			
+			
+			
+			
+			
+			html {
+			background-color: black;
+            /*Prepare background image*/
+            background-image: url('media/background1.jpg');
+            background-attachment: fixed;        
+				
+			}
+			
+			a:link {
+				text-decoration: none;
+
+			}
+
+			a:visited {
+				text-decoration: none;
+				color: yellow;
+			}
+
+			a:hover {
+				border: 2px solid blue;
+				background-color: lightgreen;
+				color: black;
+
+			}
+
+			a:active {
+				text-decoration: none;
+				
+				background-color: yellow;
+			}
+
+			#address{
+			width: 175px;
+			height: 50px;
+			}
+
+			#message{
+				width: 200px;
+				height: 50px;
+			}
+
+			#banner-img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
+
+			
+
+            #page-content {
+				background-color: rgba(255, 255, 254, 0.7);
+				font-size:18px;
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+
+			nav {
+				text-align: center;
+				font-size: 28px; 
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				
+				 /*colour text as red */
+				background-color: rgba(0,255,0,0.4);
+				
+			}
+			
+			#logo {
+				width: 300px;
+				height: 300px;
+				
+			}
+			
+			#ad img {
+				width: 150px;
+				height: 800px;
+				float:left;
+				padding-right: 30px;
+			}
+			
+			nav li {
+				display:inline-block;
+			}
+
+            #pageheading {
+				text-align: center;
+			}
+			
+			table {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+            #footer {
+            /* float the footer at the bottom of the page */
+            }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to PC Fix</title>
+		
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" href="display.css" type="text/css"/> 
+        
+	</head>
+	
+	<body>
+	
+	
+	
+	
+	
+		<div id="banner"></div> <!-- Insert banner here -->
+		
+		<img id="banner-image" src="Media/banner.png" alt="Pc fixers company banner">
+		
+		<img id="logo" src="Media/FIX.png" alt="PC fixers logo">
+		
+		<nav> <!-- align it so it is horizontal -->
+			<ul>
+				<li><a href="index.html" tabindex="0">Home</a></li>
+				<li><a href="repair.html" tabindex="0">Repairs</a></li>
+				<li><a href="product.html" tabindex="0">Product</a></li>	
+				<li><a href="faq.html" tabindex="0">FAQ</a></li>
+				<li><a href="directions.html" tabindex="0">Directions</a></li>
+				<li><a href="contact.html" tabindex="0">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<section id="page-content"> <!-- page content -->
+		<h1>Welcome to PC Fix</h1>
+		
+		
+		
+		
+		<div id="ad">
+			<img src="Media/Ads.png" alt="temporary ad">
+		</div>
+		
+
+		<br/><br/><br/><br/><br/><br/><br/><br/>
+			
+
+
+
+
+<h1>Directions to Shop</h1>
+
+<div id="googleMap" style="width:400px;height:400px"></div>
+
+
+<!-- JS for google map -->
+<script> 
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(-83.8762553,44.9443007),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+		
+	<div id="footer">
+		&copy; PC Fix
+	</div>
+</section>
+
+	</body>
+	
+	
+</html>
